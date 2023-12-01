@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net6.0;net48;net472</TargetFrameworks>
+    
+    <RootNamespace>Microsoft.Xml.XMLGen</RootNamespace>
+    <Company>Microsoft</Company>
+
+    <Product>GTools</Product>
+
+    <Description>Generates an XML file based on a schema xsd</Description>
+
+    <!-- TargetName sets the name of the *.dll in a netcore application -->
+    <TargetName>XmlGen</TargetName>
+    <!-- AssemblyName sets the name of the *.exe in a netcore application -->
+    <AssemblyName>XmlGen</AssemblyName>
+
+    <StartupObject>XmlTools.XmlGen</StartupObject>
+    
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+</Project>

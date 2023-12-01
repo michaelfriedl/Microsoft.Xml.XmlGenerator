@@ -1,0 +1,1 @@
+﻿dotnet publish .\XmlGenerator\XmlGenerator.csproj -r win-x64 --self-contained true -f net6.0 --output D:\output\release\xmlGen\
